@@ -1,7 +1,7 @@
 import { List, Record } from "immutable";
 import { Gender } from "./Gender";
 
-interface CharacterProps {
+export interface CharacterProps {
     id: number,
     name: string,
     status: string, // TODO enum statuses
